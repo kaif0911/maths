@@ -1,0 +1,10 @@
+#library(moments) 
+ 
+#Sequences 
+ a<-seq(2,20,2) 
+ 
+ #Central moments 
+ all.moments(a,order.max = 4,central = TRUE) 
+  
+ #Raw moments 
+ all.moments(a,order.max = 4,central = FALSE) 
