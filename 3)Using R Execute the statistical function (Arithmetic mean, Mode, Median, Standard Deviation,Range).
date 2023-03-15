@@ -1,0 +1,19 @@
+#data 
+x <- seq(1,15,2) 
+ print(x)  
+
+ #Arithemetic mean 
+ mean(x) [1] 
+ 
+ #Median 
+ median(x) 
+ #Mode 
+ mod <- 10%%2 
+ print(mod)  
+ #Partition Values 
+ quantile(x) 
+ #Range 
+ range(x) 
+#Standard deviation 
+sd(x) 
+
