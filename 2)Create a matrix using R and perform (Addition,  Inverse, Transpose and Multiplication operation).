@@ -1,0 +1,18 @@
+#Matrix Operation  
+  
+ x <- c(9,6,5,3,4,4,3,5)  
+ a <- matrix(data=x,nrow=4,ncol=4)  
+ b <- matrix(data=x,nrow=4,ncol=4)  
+ print(a)  
+    
+ print(b)  
+     
+a+b      
+
+a-b  
+ a*b  
+a/b  
+ a^4  
+ b^5  
+ a%%b  
+ a%/%b  
