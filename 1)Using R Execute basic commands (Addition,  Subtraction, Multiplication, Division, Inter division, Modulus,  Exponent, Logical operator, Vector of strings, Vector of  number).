@@ -1,0 +1,34 @@
+ x <- 10  
+ y <- 5  
+   
+#Addition  
+ x+y  
+  
+ #Subtraction  
+ x-y  
+  
+ #Multiplication  
+ x*y  
+  
+ #Division  
+ x/y  
+  
+ #Exponent  
+ x^2  
+  
+ #Modulus  
+ x%%y  
+  
+ #Integer Division  
+ x%/%y  
+  
+ #Logical Operators  
+ x<y  
+  
+ x>y  
+ 
+ x==y  
+  
+ #Vector of Strings  
+ fruit <- c("Mango","Apple","Orange","Grapes")  
+ print(fruit) 
