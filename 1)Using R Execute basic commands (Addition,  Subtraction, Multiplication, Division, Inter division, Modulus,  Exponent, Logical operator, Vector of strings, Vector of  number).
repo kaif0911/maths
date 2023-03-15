@@ -31,4 +31,8 @@
   
  #Vector of Strings  
  fruit <- c("Mango","Apple","Orange","Grapes")  
- print(fruit) 
+ print(fruit)
+ #vector of number 
+ num<-c(1,2,3,4)
+ print (num)
+
