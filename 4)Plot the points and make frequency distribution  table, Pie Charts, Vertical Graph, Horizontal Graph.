@@ -1,0 +1,24 @@
+
+#Frequency Distribution  
+colour <-  c("red","red","red","yellow","orange","yellow","violet","violet ","red")  
+ data.frame(table(colour))
+
+#Grouped Frequency Distribution  
+ a=c(83,51,66,61,82,65,54,56,92,60,65,87,68,64,51,  
++ 70,75,66,74,68,44,55,78,69,98,67,82,77,79,62,38,88,76,99,  
++ 84,47,60,42,66,74,91,71,83,80,68,65,51,56,73,55)  
+ data.frame(table(cut(a,c(0:7*9+37))))  
+
+
+#Piechart
+a<-seq(from=2,to=10,by=2) 
+ x <- c("Mousumi","Kartik","Dastagir","Sheetal","Vanshika")  
+ y <- c("yellow","orange","red","blue","violet")  
+ pie(a,init.angle=90,labels=x,main = "Pie Chart",col=y) 
+legend("bottomright",x,fill=y)    
+
+#Vertical bar graph  
+barplot(a,names.arg = x,density = 4,width = c(1,2,3,4,5)) 
+ 
+#Horizontal bar graph  
+barplot(a,names.arg = x,density = 4,width = c(1,2,3,4,5),horiz = TRUE)  
